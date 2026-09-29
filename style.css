@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{    
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+
+  background-color: hsl(221, 100%, 96%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    border-radius: 15px;
+
+}
+.left{
+    display: flex;
+    gap:20px;
+    max-width: 300px;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #6842FE, hsla(256, 72%, 46%, 1));
+    padding: 40px;
+}
+.right{
+    display: flex;
+    gap:20px;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 30px;
+    color:hsl(224, 30%, 27%);
+}
+
+.right h2{
+    text-align: left;
+}
+
+#score{
+    margin: auto;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 0.5), #5A31E2) ;
+    width: 150px;
+    height:150px;
+    padding: 20px;
+}
+#increase{
+    font-size: 65px;
+}
+
+#percent{
+    color:hsl(252, 100%, 80%);
+}
+#score-detail{
+    color:hsl(252, 100%, 80%);
+}
+
+.left h2{
+    color: hsl(252, 100%, 80%);
+}
+button{
+    background-color: hsl(224, 30%, 27%);
+    border: none;
+    border-radius: 20px;
+    padding: 14px;
+    color: white;
+}
+
+.right div{
+    display: flex;
+    justify-content: space-between;
+}
+
+#first{
+    background-color: #FFF6F7;
+    border-radius: 10px;
+    color: #F79091;
+    padding: 15px;
+}
+#second{
+    background-color:#FFFAF4;
+    color: #F9CC5E;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+#third{
+    background-color: #F2FDF9;
+    color: #89DDCA;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+#fourth{
+    background-color: #F4F4FE;
+    color: #5E65DA;
+    border-radius: 10px;
+    padding: 15px;
+}
+button:hover{
+    cursor:pointer;
+}
